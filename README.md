@@ -143,20 +143,20 @@
 
 <img width="3392" height="1600" alt="image" src="https://github.com/user-attachments/assets/d0032e08-d7d6-418d-89bb-cfcfe09c23d2" />
 
-사람이 이메일 데이터의 분류를 확인하게 되면 SQS에 들어가게 되고, 특정 사이즈 이상이 될 경우 훈련 데이터로 사용되게 했습니다.
+- 사람이 이메일 데이터의 분류를 확인하게 되면 SQS에 들어가게 되고, 특정 사이즈 이상이 될 경우 훈련 데이터로 사용되게 했습니다.
 
 <img width="3125" height="1418" alt="image" src="https://github.com/user-attachments/assets/c7011048-2790-4149-b706-d726ab2ba14c" />
 
-학습을 통해 85% 수치까지 개선되는 것을 확인하였습니다.
+- 학습을 통해 85% 수치까지 개선되는 것을 확인하였습니다.
 
 ### 2-2. 이메일에서 견적에 필요한 정보 추출 모델 개발
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/758eabaf-914f-4ce3-bbdd-dc8fca6a70a1" />
 
-LM 스튜디오를 통해 여러 모델을 실행해보고 비교해보고, 가장 빠른 GPT-4o-mini 모델을 채택했습니다.
+- LM 스튜디오를 통해 여러 모델을 실행해보고 비교해보고, 가장 빠른 GPT-4o-mini 모델을 채택했습니다.
 
 ### 2-3. LangGraph + RAG 활용
 
 <img width="3857" height="1910" alt="image" src="https://github.com/user-attachments/assets/c729b3dd-f5bc-44fd-9be0-68f2a60f0f85" />
 
-LangGraph를 활용하여, 디버깅을 유용하게 하고 Tavily라는 AI 에이전트(특히 LLMs)를 위해 최적화된 선도적인 검색 엔진을 활용하게 했습니다.
+- LangGraph를 활용하여, 디버깅을 유용하게 하고 Tavily라는 AI 에이전트(특히 LLMs)를 위해 최적화된 선도적인 검색 엔진을 활용하게 했습니다.
